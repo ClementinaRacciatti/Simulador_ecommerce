@@ -1,0 +1,351 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav style */
+
+.listaNav{
+    display: inline;
+    margin: 15px;
+}
+
+.textoNav{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+    list-style-type: none;
+    text-align: center;
+    padding: 7px;
+}
+
+.navBarEnvio{
+    background-color: #c8c8c8;
+}
+
+.navBarMio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Fin Nav style */
+
+/* Varias */
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo{
+    width: 200px;
+    align-content: center;
+    margin: 20px;
+}
+
+.divLogo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.fondoRotadorInterno {
+    background-image: url("../img/imgrotador-2.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 200px;
+}
+
+.fondoDescripcionHome {
+    background-color: #F0F0F0;
+    padding: 70px 0px 0px 0px;
+}
+
+.iconTrash {
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+/* Fin Varias */
+
+/* Textos*/
+
+.tituloIndex{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px 2px #000;
+    text-align: center;
+}
+
+.textoDescripcionIndex{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    padding: 40px;
+}
+
+.textoDescripcionHome{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    margin: 0px 0px 0px 60px;
+}
+
+.textoDescripcion{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    margin: 20px 10px 10px 10px;
+}
+
+.textoDescripcionProductos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+}
+
+.textoProductoPrecio{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #22B573;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 30px 0px 0px;
+}
+
+.textoTitulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #22B573;
+    text-align: left;
+    margin: 20px 10px 10px 10px;
+    text-transform: uppercase;
+    
+}
+
+.textoTituloNegro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+    margin: 20px 10px 10px 25px;
+    
+}
+
+.textoTituloCentrado{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #22B573;
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+    text-transform: uppercase;
+    
+}
+
+.textoTituloCarrito{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #22B573;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    
+}
+
+.textoDescripcionCarrito{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Fin Textos */
+
+/* Secciones */
+
+.seccionesContacto {
+    width: 600px;
+    justify-content: center;
+    padding: 30px;
+    background-color: #F0F0F0;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+}
+.carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Fin Secciones */
+
+/* Tarjetas Productos Index */
+
+.seccionProductosHome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #F0F0F0;
+    padding: 20px 30px 80px 30px;
+}
+
+.seccionProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F0F0F0;
+    padding: 80px 30px 80px 30px;
+}
+
+.seccionCarrito {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cardProductos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    align-items: center;
+    width: 300px;
+    margin: 30px 0px 30px 0px;
+}
+
+.cardImg {
+    display: flex;
+    justify-content: center;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInfo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardProductos__img {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.button {
+    background-color: #264BC4;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    text-transform: uppercase;
+    margin:5px 0px 0px 0px;
+}
+
+.button:hover {
+    background-color: #5f82f7;
+  }
+
+  .buttonProductos {
+    background-color: #264BC4;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    text-transform: uppercase;
+    margin:5px 0px 0px 0px;
+}
+
+.buttonProductos:hover {
+    background-color: #5f82f7;
+  }
+
+/* Fin Tarjetas Productos Index */
+
+/* Tarjetas Contacto */
+
+.contactoCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    padding: 30px;
+    background-color: #F0F0F0;
+    margin: 20px;
+    border-radius: 20px; }
+
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.textoFooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000;
+    list-style-type: none;
+    text-align: left;
+    margin: 5px;
+}
+.textoFooterTitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
+    list-style-type: none;
+    text-align: left;
+    margin: 5px;
+    font-weight: 400;
+}
+
+
+

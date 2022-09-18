@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Favicon-01.png">
+    <meta name="description" content="Mira todos los productos que vendemos en ciatti pasteleria">
+    <meta name="keywords"  content="pastelería, rosario, diseño, tortas, galletitas">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Productos</title>
+</head>
+<body>
+<!-- navigation bar -->
+    <div class="navBarEnvio">
+        <p class="textoNav">Envío gratis en tu compra superior a los $4000</p>
+    </div>
+    <header class="navBarMio sticky-top bg-light">
+        <nav class="navbar navbar-expand-lg navTexto">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navBarMio">
+                <li class="nav-item textoNav">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="button btn btn-outline-success" type="submit"><a href="#" id="tostadita" >Buscar</a></button>
+                    </form>
+                </li>
+                <li>
+                    <a href="../index.html">
+                        <img class="logo" src="../img/Logo-1.png" alt="logo">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoNav" href="./productos.html">productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoNav" href="./contacto.html">contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a type="button" class="nav-link textoNav" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="../img/Icon-Cart.png" alt="carrito">
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+<!-- end navigation bar -->
+    <main>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/Rotadores-04.png" class="d-block w-100" alt="Nuestros Productos">
+              </div>
+            </div>
+          </div>
+        <section class="seccionProductos" id="contenedor-productos">
+
+        </section>
+        <!-- Modal 1 -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="textoTitulo" id="exampleModalLabel">Tu Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <section class="modal-body" id="carrito-contenedor">
+                
+                </section>
+                <div>
+                    <p class="textoTituloNegro">Precio Total: $ <span id="precioTotal">0</span></p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="vaciar-carrito">Vaciar Carrito</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Comprar
+                  </button>
+                </div>
+            </div>
+            </div>
+        </div> 
+        <!-- Modal 2 -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="textoTitulo" id="exampleModalLabel">Completa tus datos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modal-body" >
+                <form>
+                    <label class="texto__Descripcion" for="nombre_apellido" >Nombre y apellido:</label> <br>
+                    <input type="text" class="form-control" id="" placeholder=""> <br>
+                    <label class="texto__Descripcion" for="telefono">Teléfono:</label> <br>	
+                    <input type="text" class="form-control" id="" placeholder=""> <br>
+                    <label class="texto__Descripcion" for="correo_electronico">Correo electrónico:</label> <br>	
+                    <input type="text" class="form-control" id="" placeholder=""> <br>
+                </form>
+            </section>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Comprar
+              </button>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <section class="modal-body" >
+                <p>¡Gracias por tu compra nos pondremos en contacto para realizar el pago!</p>
+            </section>
+        </div>
+        </div>
+        </div> 
+    </main>
+<!-- footer -->
+    <footer class="footer">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/Logo-1.png" alt="logo">
+            </a> 
+        </div>
+        <div>
+            <p class="textoFooterTitulo">Contacto</p>
+            <p class="textoFooter">+5493415054678</p>
+            <p class="textoFooter">lulus@petshop.com.ar</p>
+        </div>
+        <div>
+            <a href="">
+                <img src="../img/icon-i.png" alt="icono instagram">
+            </a> 
+            <a href="">
+                <img src="../img/icon-f.png" alt="icono facebook">
+            </a> 
+        </div>
+    </footer>
+<!-- end footer -->
+<script src="../js/stock.js"></script>
+<script src="../js/carrito.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
