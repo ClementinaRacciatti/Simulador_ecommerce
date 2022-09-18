@@ -22,7 +22,7 @@ const renderizarListaProductos = () => {
         </div>
         <div class="cardInfo2">
             <p id="precio" class="textoProductoPrecio">${producto.precio}</p>
-            <a class="buttonProductos" href="./pages/productos.html" id=btnIndex> Agregar</a>
+            <a class="buttonProductos" href="./pages/productos.html" id=btnIndex> Ver mas</a>
         </div>
         `
     listaProductos.append(productoDiv)
