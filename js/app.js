@@ -30,7 +30,7 @@ const renderizarListaProductos = () => {
 }
 
 const getAllProductos = async () => {
-    const response = await fetch ('https://clementinaracciatti.github.io/Simulador_ecommerce/json/productos.json')
+    const response = await fetch ('../json/productos.json')
     const data = await response.json()
     allProductos = data
     renderizarListaProductos (allProductos)
