@@ -5,6 +5,7 @@
 const contenedorProductos = document.getElementById("contenedor-productos")
 const contenedorCarrito = document.getElementById("carrito-contenedor")
 const botonVaciar = document.getElementById("vaciar-carrito")
+const botonComprar = document.getElementById("comprar-carrito")
 const contadorCarrito = document.getElementById("contadorCarrito")
 const precioTotal = document.getElementById("precioTotal")
 
@@ -18,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 botonVaciar.addEventListener('click', () => {
+    carrito.length = 0
+    localStorage.clear('carrito')
+    actualizarCarrito()
+})
+
+botonComprar.addEventListener('click', () => {
     carrito.length = 0
     localStorage.clear('carrito')
     actualizarCarrito()
