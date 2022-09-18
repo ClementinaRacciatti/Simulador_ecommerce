@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 botonVaciar.addEventListener('click', () => {
     carrito.length = 0
+    localStorage.clear('carrito')
     actualizarCarrito()
 })
 
@@ -79,13 +80,13 @@ const actualizarCarrito = () => {
         <p class="textoTituloCarrito">${prod.nombre}</p>
         <p class="textoDescripcionCarrito">precio: $ ${prod.precio}</p>
         <p class="textoDescripcionCarrito">cantidad: ${prod.cantidad}</p>
-        <a onclick = "eliminarlDelCarrito(${prod.id})" class="iconTrash"> <img src="../img/Icon-Trash.png"> </a>
+        <a onclick = "eliminarlDelCarrito(${prod.id})" class="iconTrash" type="button"> <img src="../img/Icon-Trash.png"> </a>
         `
         contenedorCarrito.appendChild(div)
 
         localStorage.setItem('carrito', JSON.stringify(carrito))
     })
-
+    contadorCarrito.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad, 0)
 
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0)
 }

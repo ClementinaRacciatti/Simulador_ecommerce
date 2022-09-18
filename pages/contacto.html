@@ -43,11 +43,6 @@
                     <li class="nav-item">
                     <a class="nav-link textoNav" href="./contacto.html">contacto</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link textoNav" href="./carrito.html">
-                        <img src="../img/Icon-Cart.png" alt="carrito">
-                    </a>
-                    </li>
                 </ul>
                 </div>
             </div>
@@ -71,12 +66,14 @@
                 <section>
                     <form id="texto">
                         <label class="texto__Descripcion" for="nombre_apellido" >Nombre y apellido:</label> <br>
-                        <input type="text" class="form-control" id="nombreyapellido" placeholder=""> <br>
+                        <input type="text" class="form-control" id="nombreyapellido" placeholder="Nombre y Apellido"> <br>
                         <label class="texto__Descripcion" for="telefono">Teléfono:</label> <br>	
-                        <input type="text" class="form-control" id="telefono" placeholder=""> <br>
+                        <input type="text" class="form-control" id="telefono" placeholder="Teléfono"> <br>
+                        <label class="texto__Descripcion" for="mail">Correo Electrónico:</label> <br>	
+                        <input type="text" class="form-control" id="mail" placeholder="tucorre@correo.com"> <br>
                         <label class="texto__Descripcion"  for="consulta">Dejanos tu consulta</label> <br>	
                         <textarea class="form-control" aria-label="With textarea" id="duda"></textarea> <br>
-                        <button class="button" type="submit" id="btnEnviar">Enviar</button>
+                        <button class="button" type="submit" onClick="return false" id="btnEnviar">Enviar</button>
                     </form>
                 </section>
             </div>
