@@ -211,6 +211,7 @@ a{
 .contacto{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .carrito{
     display: flex;
@@ -237,7 +238,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #F0F0F0;
-    padding: 80px 30px 80px 30px;
+    padding: 80px 40px 80px 40px;
 }
 
 .seccionCarrito {

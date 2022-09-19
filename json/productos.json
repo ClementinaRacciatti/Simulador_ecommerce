@@ -3,36 +3,36 @@
         "id": "001",
         "nombre": "Royal Canin Puppy Mini x 1kg",
         "precio": "$1820",
-        "imagen": "../img/Producto-01.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-01.png"
     },
     {
         "id": "002",
         "nombre": "Comedero Doble Elevado",
         "precio": "$4000",
-        "imagen": "../img/Producto-02.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-02.png"
     },
     {
         "id": "003",
         "nombre": "Excellent Gato Adulto x 7,5kg",
         "precio": "$7170",
-        "imagen": "../img/Producto-03.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-03.png"
     },
     {
         "id": "004",
         "nombre": "Correa Flex 5mts",
         "precio": "$15100",
-        "imagen": "../img/Producto-04.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-04.png"
     },
     {
         "id": "005",
         "nombre": "Nutrique Gato Adulto x 2kg",
         "precio": "$4180",
-        "imagen": "../img/Producto-05.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-05.png"
     },
     {
         "id": "006",
         "nombre": "Cepillo Dispenser",
         "precio": "$2170",
-        "imagen": "../img/Producto-06.png"
+        "imagen": "https://clementinaracciatti.github.io/Simulador_ecommerce/img/Producto-06.png"
     }
 ]
